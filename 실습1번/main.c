@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "lib/main.h"
+#include <stdlib.h>
 
 void main(int argc, char *argv[]){
   printf("add(%d, %d) = %d\n", atoi(argv[1]),atoi(argv[2]), add(atoi(argv[1]),atoi(argv[2])));
